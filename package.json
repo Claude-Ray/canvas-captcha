@@ -1,0 +1,27 @@
+{
+  "name": "canvas-captcha",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/index.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Claude-Ray/canvas-captcha.git"
+  },
+  "keywords": [
+    "captcha",
+    "canvas"
+  ],
+  "author": "claude-ray",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Claude-Ray/canvas-captcha/issues"
+  },
+  "homepage": "https://github.com/Claude-Ray/canvas-captcha#readme",
+  "dependencies": {
+    "canvas": "^2.0.0-alpha.14",
+    "lodash": "^4.17.10"
+  }
+}
