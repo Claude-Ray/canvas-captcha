@@ -1,4 +1,6 @@
 # canvas-captcha
+[![Build Status](https://travis-ci.org/Claude-Ray/canvas-captcha.svg?branch=master)](https://travis-ci.org/Claude-Ray/canvas-captcha)
+
 基于[node-canvas](https://github.com/Automattic/node-canvas)，目前仅作示范，也可直接用于图片验证码产出。
 
 > 项目不完善，因此未发布npm。建议直接引入`node-canvas`自行绘制验证码。
