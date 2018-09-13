@@ -23,7 +23,7 @@
   " />
 
 ## Usage
-暂时只支持base64格式输出。
+原生方法暂时只支持jpeg base64格式输出。
 
 ```js
 const captcha = new Captcha(120, 50, 4);
