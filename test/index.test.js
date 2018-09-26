@@ -8,7 +8,7 @@ test('native captcha', () => {
 
   expect(text.length).toBe(4);
   expect(fileType(Buffer.from(dataURL, 'base64')))
-    .toMatchObject({ ext: 'jpg', mime: 'image/jpeg' })
+    .toMatchObject({ ext: 'jpg', mime: 'image/jpeg' });
 });
 
 test('custom captcha', () => {
