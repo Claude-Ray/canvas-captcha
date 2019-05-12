@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/Claude-Ray/canvas-captcha#readme",
   "dependencies": {
-    "canvas": "^2.0.0-alpha.14",
+    "canvas": "~2.5.0",
     "lodash": "^4.17.10"
   },
   "devDependencies": {

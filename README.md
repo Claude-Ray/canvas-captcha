@@ -53,3 +53,19 @@ captcha.drawPoint(ctx);
 // captcha或canvas都可用于图片输出
 const dataURL = captcha.toDataURL(canvas);
 ```
+
+### registerFont()
+
+Canvas2 actually supports `Canvas::registerFont(ttf)`, according to [Canvas#registerFont](https://github.com/Automattic/node-canvas#registerfont).
+
+> To use a font file that is not installed as a system font, use registerFont() to register the font with Canvas. This must be done before the Canvas is created.
+
+`canvas2-captcha` supports this method, too. But you also need to pay attention to the similar tip: This must be done before `createCaptcha` or `initCanvas`.
+
+```js
+const captcha = new Captcha(120, 50, 4);
+// first register
+captcha.registerFont('comicsans.ttf', { family: 'Comic Sans' });
+// then create
+const {dataURL, text} = captcha.createCaptcha();
+```
