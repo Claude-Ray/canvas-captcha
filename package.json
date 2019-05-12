@@ -1,8 +1,12 @@
 {
   "name": "canvas2-captcha",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "captcha based on canvas@2.x",
   "main": "index.js",
+  "files": [
+    "index.js",
+    "lib"
+  ],
   "scripts": {
     "test": "jest test/index.test.js"
   },
